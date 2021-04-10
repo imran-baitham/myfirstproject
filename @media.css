@@ -1,0 +1,118 @@
+@media (min-width: 1024px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 50%;
+    font-size: 150%;
+    padding: 12px 0px;
+    text-align: center;
+    font-family: Arial;
+    background-color: rgb(216, 216, 216);
+  }
+
+  .nth {
+    color: white;
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 8px;
+  }
+}
+/* ///////////////////////////// */
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 50%;
+    font-size: 90%;
+    padding: 12px 0px;
+    text-align: center;
+    font-family: Arial;
+    background-color: rgb(219, 219, 219);
+  }
+
+  .nth {
+    color: white;
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 8px;
+  }
+}
+/*                            section 01                     */
+
+@media (min-width: 0px) and (600px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+  .sec-one {
+    background-image: none;
+    width: 100%;
+    height: 110vh;
+    margin: 0.2em;
+  }
+
+  .head-one {
+    padding-top: 16%;
+    padding-left: 11%;
+    font-size: 10px;
+    font-family: sans-serif;
+  }
+
+  .head-two {
+    padding-left: 11%;
+    font-size: 35px;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .lorem {
+    color: darkblack;
+    padding-left: 11%;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serifserif;
+  }
+
+  .button-one {
+    color: white;
+    background-color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+    border-radius: 6px;
+    margin-left: 11%;
+    margin-top: 30px;
+    padding: 5px 8px;
+  }
+
+  .button-one:hover {
+    color: black;
+    background-color: wheat;
+    border: 1px solid wheat;
+    cursor: pointer;
+  }
+
+  table,
+  .thead {
+    color: black;
+    display: flexbox;
+    margin-top: 12%;
+    padding-left: 11%;
+    font-size: 12px;
+    text-align: left;
+  }
+  table,
+  .tbody {
+    color: black;
+  }
+}

@@ -1,0 +1,722 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*                   navbar          */
+.navbar {
+  width: 99%;
+  height: 25px;
+  margin: 0px 2px;
+  padding-top: 5px;
+  padding-bottom: 2.7%;
+  text-align: center;
+}
+.navbar :hover {
+  color: red;
+}
+
+.nth {
+  color: white;
+  width: 60px;
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 60%;
+  display: inline-block;
+  line-height: 200%;
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: black;
+  padding-left: 6%;
+  text-decoration: none;
+  font-size: 23px;
+}
+/*                  navbar end          */
+
+/*                  section 01           */
+#sec-one {
+  background: url(juuu\ copy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 99.4%;
+  height: auto;
+  margin: 0.2em;
+  transition: all 0.7;
+}
+
+.head-two {
+  padding-top: 11%;
+  padding-left: 11%;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.head-one {
+  padding-left: 11%;
+  font-size: 48px;
+  margin-top: 0%;
+  margin-bottom: 1%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.lorem {
+  color: darkblack;
+  padding-left: 11%;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serifserif;
+}
+
+.button-one {
+  color: white;
+  background-color: #ff4d4d;
+  border: 1px solid #ff4d4d;
+  border-radius: 6px;
+  margin-left: 11%;
+  margin-top: 30px;
+  padding: 6px 9px;
+  font-size: larger;
+}
+
+.button-one:hover {
+  color: black;
+  background-color: wheat;
+  border: 1px solid wheat;
+  cursor: pointer;
+}
+#div-three {
+  padding-top: 11%;
+  margin-left: 11%;
+}
+.sec-dives {
+  display: inline-block;
+  padding-bottom: 2%;
+  margin: 0% 7px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*                   end section 01              */
+
+/*                    section 02                 */
+.section-two {
+  width: 99%;
+  margin: 0.1em;
+}
+.about {
+  padding-top: 7%;
+  padding-left: 11%;
+  padding-bottom: 4px;
+  font-size: 38px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.lorem-two {
+  padding-left: 11%;
+  padding-top: 0%;
+  padding-bottom: 3%;
+  margin-top: 0%;
+  font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.second2 img {
+  width: 60%;
+  height: 442px;
+  padding-left: 9%;
+  padding-top: 2%;
+  margin-top: 0%;
+  margin-left: 11%;
+}
+.abc12345678 {
+  display: inline-block;
+  margin: 0%;
+  font-size: 19px;
+  margin-bottom: 0%;
+  margin-top: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.abcdefghij {
+  font-size: 19px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  display: inline-block;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.dives {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+}
+
+.divs {
+  width: 248px;
+  height: 190px;
+  display: inline-block;
+  margin-top: 5%;
+  text-align: left;
+  font-size: 19px;
+}
+
+.translate {
+  max-width: 100%;
+  font-size: 15px;
+  margin-top: 13px;
+  transform: translateX(-100px);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.heloo {
+  font-size: 25px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.para-one {
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.click {
+  color: white;
+  background-color: #ff4d4d;
+  border: 1px solid #ff4d4d;
+  padding: 5px 8px;
+  padding-left: 8px;
+  border-radius: 6px;
+  margin-top: 5%;
+  font-size: 23px;
+}
+
+.click:hover {
+  color: black;
+  background-color: wheat;
+  border: 1px solid wheat;
+}
+
+/*                          end section 02                      */
+
+/*                          section 03                           */
+
+.sec-three {
+  width: 100%;
+}
+.boxes-father {
+  width: 90%;
+  display: flex;
+  margin-top: 60px;
+  margin-left: 8%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Overpass", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font: medium;
+}
+.boxes-father .box {
+  width: 115px;
+  height: 85px;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(241, 241, 241);
+}
+.box i {
+  font-size: 25px;
+  align-items: center;
+  padding-top: 18px;
+}
+/*                end section 03       */
+
+/*                  section 04         */
+.section-for {
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+  margin-top: 40px;
+  width: 85%;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+.exp,
+.Edu {
+  width: 100%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.exp h1,
+.Edu h1 {
+  font-size: 24px;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.My-Exp {
+  height: auto;
+  padding: 30px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 10px whitesmoke;
+}
+.My-Exp h1 {
+  padding-top: 15px;
+}
+.My-Edu p,
+.My-Exp p {
+  line-height: 23px;
+  font-size: 17px;
+}
+.My-Exp h6 {
+  padding-top: 3px;
+  padding-bottom: 12px;
+  font-size: 13px;
+}
+.My-Edu {
+  height: auto;
+  padding: 30px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 10px whitesmoke;
+}
+.My-Edu h6 {
+  padding-bottom: 12px;
+  padding-top: 3px;
+  font-size: 13px;
+}
+.My-Edu h3,
+.My-Exp h3 {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+/*                   end section 04                           */
+
+/*                     section 05                             */
+#My-Services {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-left: 130px;
+  width: 90%;
+}
+.services-my {
+  width: 97%;
+}
+
+#My-Services h1 i {
+  color: rgb(247, 149, 125, 0.25);
+  position: relative;
+  right: 199px;
+  top: 5px;
+  font-size: 40px;
+}
+#My-Services h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  width: 70%;
+}
+#My-Services p {
+  font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+.services {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+}
+.services .box {
+  margin-top: 40px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 15px;
+  background-color: whitesmoke;
+}
+.services .box h1 span {
+  border: red 2px solid;
+  border-radius: 50%;
+  color: red;
+  font-size: 30px;
+}
+.services .box p {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.services .box h2 {
+  font-size: 25px;
+}
+.Services-heading {
+  font-size: 14%;
+}
+.header {
+  text-align: center;
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  max-width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  margin-top: 9%;
+  margin-bottom: 4%;
+  margin-left: 38%;
+  font-family: Arial;
+}
+/*                        end section 05           */
+
+/*                          section 06               */
+#My-Works {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.work-heading {
+  padding-left: 150px;
+  padding-bottom: 38px;
+}
+#My-Works h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+}
+#My-Works p {
+  font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  width: 90%;
+}
+.Works {
+  margin-left: 12%;
+  width: 83%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+}
+.Works .box {
+  margin-top: 40px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: whitesmoke;
+  margin: 6px;
+}
+.Works .box p {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.Works .box p i {
+  color: red;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.Works .box img {
+  width: 99%;
+  height: 83%;
+}
+
+/*                      end section 06               */
+/*                        section 07                  */
+.Our-Clients {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.clients-heading {
+  padding-left: 0px;
+  padding-bottom: 4%;
+}
+.Our-Clients .our {
+  margin-top: 80px;
+  padding-left: 10%;
+}
+.Our-Clients h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+}
+.Our-Clients h1 i {
+  position: relative;
+  right: 177px;
+  font-size: 2.6rem;
+  top: 4px;
+  color: rgb(247, 149, 125, 0.25);
+}
+.Clients {
+  width: 90%;
+  padding-left: 9px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+}
+.Clients .box img {
+  position: relative;
+  top: 120px;
+  right: 40px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  padding: 2.5px;
+  border: red 2px solid;
+}
+.Clients .box {
+  width: 90%;
+  border-radius: 5px;
+  margin-left: 60px;
+  margin-top: 15px;
+  background-color: whitesmoke;
+}
+
+.Clients .box p {
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: 3%;
+  padding:20px 50px;
+  font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+}
+.Clients .box i {
+  color: red;
+  font-size: 20px;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid red;
+  padding: 10px;
+}
+.Clients .box h4 {
+  border-left: red 3px solid;
+  text-align: left;
+  padding-left: 5px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.Clients .box h4 span {
+  padding-left: 05px;
+  font-family: "Courier New", Courier, monospace;
+}
+.span {
+  color: rgb(80, 74, 64);
+  font-size: 25px;
+}
+/*                          end section 07           */
+
+/*                           section 08           */
+.section-of-blogs {
+  padding-left: 140px;
+}
+.section-of-blogs .blogs h1 i {
+  color: rgb(247, 149, 125, 0.25);
+  position: relative;
+  top: 5px;
+  right: 135px;
+  font-size: 40px;
+}
+.section-of-blogs .blogs {
+  margin-top: 70px;
+  width: 100%;
+}
+.blogs .container {
+  width: 93%;
+  margin-top: 40px;
+  margin-left: 4%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  width: 95%;
+}
+.col img {
+  width: 95%;
+  height: 270px;
+}
+.col .blog-lo-sec {
+  width: 87%;
+  margin-right: 10px;
+  position: relative;
+  bottom: 50px;
+  left: 23px;
+  background-color: white;
+  box-shadow: -0px 0px 7px 5px rgba(236, 236, 236, 0.842);
+  border-radius: 2px;
+  text-align: left;
+}
+.blog-lo-sec h6 {
+  border-left: 2px solid red;
+  padding-left: 17px;
+  padding-top: 4%;
+  font-size: 13px;
+}
+.blog-lo-sec p,
+h2 {
+  width: 93%;
+  padding: 15px;
+  font-size: 30px;
+}
+.blog-lo-sec h2 {
+  padding-top: 3%;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+}
+.blog-lo-sec p {
+  font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding-top: 0%;
+  padding-bottom: 4%;
+}
+.blog-lo-sec button {
+  margin-left: 17px;
+  margin-bottom: 20px;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 140px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #ff4d4d;
+}
+.blog-lo-sec button i {
+  padding-left: 04px;
+}
+.blog-lo-sec button:hover {
+  color: black;
+  background: rgb(243, 193, 193);
+  cursor: pointer;
+  border: none;
+}
+/*               end section 08          */
+
+/*                  section 09          */
+
+.My-Container {
+  width: 85%;
+  padding-left: 140px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.contact-heading {
+  width: 85%;
+  padding-bottom: 2%;
+}
+#me-contact {
+  margin-top: 40px;
+}
+.Contact {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin-top: 25px;
+  justify-content: space-around;
+}
+.contt {
+  font-size: 32px;
+}
+#me-contact h1,
+p {
+  font-family: "Raleway", sans-serif;
+  padding: 3px;
+}
+#me-contact .Contact .form {
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 3%;
+}
+.form input,
+textarea {
+  margin: 0.7rem;
+  padding: 7px;
+  background-color: whitesmoke;
+  border: 1px rgba(156, 155, 155, 0.329) solid;
+  border-radius: 5px;
+}
+.btn-msg button {
+  padding: 10px 28px;
+  background-color: #ff4d4d;
+  color: rgb(248, 244, 244);
+  cursor: pointer;
+  border-color: #ff4d4d;
+  border: none;
+  width: 190px;
+  font-size: 17px;
+  border-radius: 5px;
+  padding-left: 17px;
+}
+.btn-msg button:hover {
+  background-color: rgb(243, 193, 193);
+  color: red;
+}
+#me-contact .Contact .form .btn-msg i:hover {
+  background-color: rgb(243, 193, 193);
+  color: red;
+}
+.btn-msg {
+  padding: 10px;
+  padding-left: 1rem;
+}
+.let-talk {
+  width: 100%;
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  line-height: 26px;
+}
+.let-talk .let p {
+  font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.info-about h3 {
+  padding-left: 10px;
+  margin-top: 15px;
+  font-family: Poppins, sans-serif;
+  font-size: 19px;
+}
+.info-about p {
+  margin-left: 8px;
+  font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.info-about i {
+  color: red;
+  font-size: 18px;
+  position: relative;
+  padding-right: 1.3%;
+}
+/*                               end section 08                      */
+.footer {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+  height: 50px;
+  font-size: 12px;
+  align-items: center;
+  padding: 1rem 0;
+}
+.footer .footer-icons {
+  display: flex;
+  padding-top: 7px;
+}
+.footer .footer-icons i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+  width: 30px;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+.footer .footer-icons i {
+  font-size: large;
+  margin: 0 auto;
+  cursor: pointer;
+}
